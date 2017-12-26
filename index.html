@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<link rel="stylesheet" href="login.css"/>
+<title>Login Page</title>
+</head>
+<script type="text/javascript">
+function checkpassword()
+{
+var p1=f.pwd1.value;
+var p2=f.pwd2.value;
+if(p1==p2)
+	{
+	alert("Passwords match")
+	return true;
+	}
+else
+	{
+	alert("passwords mismatch")
+	return false;
+	}
+	
+}
+
+</script>
+
+<body>
+<h2>Blossom Corporation</h2><br><br>
+
+
+<div id="login-pic">
+
+<form action="reg.jsp" method="post" name="f">
+<h3>Sign-up here !</h3>
+<input type="email" placeholder="Enter email-id" id="register" name="reg" required/><br>
+<input type="password" placeholder="Enter Password" id="pwd01" maxlength="10"  name="pwd1" required/><br>
+<input type="password" placeholder="Re-type Password" id="pwd02" maxlength="10" name="pwd2" required/><br><br>
+<input type="submit" value="Register" id="regis-btn" onclick="return checkpassword();"/><br><br>
+ <a href="login.html" id="link">click here to login</a>
+</form>
+
+
+
+
+<!-- <form action="Login" method="post">
+<h3>Login here !</h3>
+<input type="text" name="uname" id="name" placeholder="Username" required><br>
+<input type="password" name="pass" id="pass" placeholder="Password"  maxlength="10" required><br><br>
+<input type="submit" value="login" id="log">
+</form>
+</div>
+<form action="Forgot">
+<input type="submit" value="Forgot Password" id="forgot">
+</form>
+-->
+</div>
+
+</body>
+</html>

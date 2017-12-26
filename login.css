@@ -1,0 +1,136 @@
+@charset "ISO-8859-1";
+
+body{
+ 
+	background-image:url(https://static.pexels.com/photos/268533/pexels-photo-268533.jpeg);
+	background-size:cover;
+	back-ground-position:center;
+	
+}
+
+#login-pic
+{
+width:500px;
+height:350px;
+background-color:white;	
+opacity:0.5;
+margin:0 auto;
+margin-top:40px;
+padding:10px;
+padding-left:20px;
+
+}
+#register
+{
+	position:absolute;
+	top:38%;
+	left:45%;
+	background-color:lightblue;
+	
+	
+
+}
+#pwd01
+{
+	position:absolute;
+	top:43%;
+	left:45%;
+	background-color:lightblue;
+
+}
+#pwd02
+{
+	position:absolute;
+	top:48%;
+	left:45%;
+	background-color:lightblue;
+
+}
+
+#regis-btn
+{
+	position:absolute;
+	top:54%;
+	left:45%;
+	font-family:Italic;
+	color:darkgrey;
+	display:block;
+	font-size:15px;
+	margin-left:50px;
+	padding:1px;	
+}
+
+h2
+{
+	text-align:center;
+	color:red;
+	text-transform:uppercase;
+}
+
+h3
+{
+	text-align:center;
+	color:red;
+	text-transform:uppercase;
+}
+
+#name{
+	position:absolute;
+	top:65%;
+	left:45%;
+	background-color:lightblue;
+	
+}
+
+#pass{
+	position:absolute;
+	top:70%;
+	left:45%;
+	background-color:lightblue;
+}
+
+#log
+{
+	position:absolute;
+	top:75%;
+	left:40%;
+	font-family:Italic;
+	color:darkgrey;
+	display:block;
+	font-size:15px;
+	margin-left:50px;
+	padding:1px;	
+}
+
+#link
+{
+	position:absolute;
+	top:58%;
+	left:46%;
+}
+
+#forgot
+{
+	position:absolute;
+	top:75%;
+	left:55%;
+	font-family:Italic;
+	color:darkgrey;
+}
+
+#email
+{
+	position:absolute;
+	top:30%;
+	left:45%;
+	color:red;
+	
+}
+
+#sub
+{
+	position:absolute;
+	top:50%;
+	left:50%;
+	color:red;
+}
